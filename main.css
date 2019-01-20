@@ -194,15 +194,24 @@ button{
         background-position-y: 300px;
       
     }
-    .feature{
+    .feature,.pricing{
         display: block;
      }
-     .feature *{
+     .feature * , .pricing *{
          width: 100%;
+         margin: auto;
+         position: static;
      }
-    .pricing{
-       display: block;
+     .pricing,.price{
+        margin: 0 auto;
     }
+
+    .price2{
+        position: static;
+        top:200px;
+    
+    }
+    
 }
 @media (min-height:850 )and( max-width:112px){
     .display-desktop{
