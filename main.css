@@ -59,7 +59,6 @@ button{
 }
 /* page section */
 .header{
-
     padding-top: 20px;
 }
 .branding{
@@ -169,8 +168,51 @@ button{
     margin-top: 60px;
     border-top: .2px solid gray;
 }
-@media (max-width:520px){
-    .feature, .pricing{
-       flex-direction: column;
+/*responsiv*/
+/*pc*/
+/*Phone*/
+@media (max-width:620px){
+    .intro-txt-title{
+        padding-top: 80px;
+    }
+    .intro{
+        height: 40vw;
+        background: no-repeat url('img/intro.PNG');
+        background-position-x: 45vw;
+    
+        background-size: contain;
+    }
+    .intro-txt{
+        width: 100%;
+    
+    }
+    .display-desktop{
+        width: 100%;
+        height: 500px;
+        background-origin: content-box;
+        background-size: 80vw;
+        background-position-y: 300px;
+      
+    }
+    .feature{
+        display: block;
+     }
+     .feature *{
+         width: 100%;
+     }
+    .pricing{
+       display: block;
+    }
+}
+@media (min-height:850 )and( max-width:112px){
+    .display-desktop{
+        height: auto;
+        margin: 0;
+        background-size: contain;
+      
+    }
+    .feat2{
+       position: absolute;
+       top: -100px;
     }
 }
