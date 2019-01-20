@@ -191,7 +191,7 @@ button{
         height: 500px;
         background-origin: content-box;
         background-size: 80vw;
-        background-position-y: 300px;
+        background-position-y: 200px;
       
     }
     .feature,.pricing{
@@ -211,13 +211,19 @@ button{
         top:200px;
     
     }
+    .footer{
+        display: block;
+        margin-top:400px;
+        overflow: hidden;
+    }
+    .footer *{
+        float: left;
+    }
     
 }
-@media (min-height:850 )and( max-width:112px){
+@media (min-height:621 )and( max-width:860px){
     .display-desktop{
-        height: auto;
-        margin: 0;
-        background-size: contain;
+      
       
     }
     .feat2{
