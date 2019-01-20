@@ -59,7 +59,7 @@ button{
 }
 /* page section */
 .header{
-    overflow: hidden;
+
     padding-top: 20px;
 }
 .branding{
@@ -127,21 +127,47 @@ button{
 }
 .price{
     margin: 0 30px;
+
 }
 .price h3,.price ul{
     text-align: center;
 }
+.price h3,.price ul :first-child{
+    color: #5077FF;
+
+}
+.price ul :first-child{
+    width: 70px;
+    margin: auto;
+
+}
+.price li :only-child{
+    font-size: 30px;
+}
 .price h3{
-    text-align: center;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
 }
 .price ul{
-    text-align: center;
+    padding: 10px;
+}
+.price button{
+    display: block;
+    width: 80%;
+    margin: auto;;
 }
 
 .price2{
     position: relative;
     top:200px;
 
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin-top: 60px;
+    border-top: .2px solid gray;
 }
 @media (max-width:520px){
     .feature, .pricing{
