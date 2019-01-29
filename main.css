@@ -44,7 +44,7 @@ button{
     background-color:white;
     border: .5px solid #5077FF;
 }
-.link{
+.nav-link{
     opacity: .5;
     color: black;
     text-decoration: none;
@@ -53,7 +53,7 @@ button{
 .intro .btn{
     margin-right: 10px;
 }
-.link:hover{
+.nav-link:hover{
     opacity: 1;
     text-decoration: underline;
 }
@@ -125,7 +125,7 @@ button{
     margin: 80px;
 }
 .price{
-    margin: 0 30px;
+    margin: 0px 30px;
 
 }
 .price h3,.price ul{
@@ -223,7 +223,7 @@ button{
 }
 @media (min-height:621 )and( max-width:860px){
     .display-desktop{
-      
+        background-position-y: 200px;
       
     }
     .feat2{
